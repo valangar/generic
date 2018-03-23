@@ -1,5 +1,10 @@
 # generic
-General JS codes on various topics
+General JS codes on various topics!
 
-Currently, all such snippets are available in jfiddle https://jsfiddle.net/user/varshalangar/fiddles/
-Most of the snippets use D3.js library.
+- Some directories in this repo contain solutions to practice JS problems I found online.
+	= I found these problems in one of the following places:
+		i. https://javascript30.com/
+		ii. Coming soon...
+		
+- I also have snippets of test solutions in a JSFiddle here: https://jsfiddle.net/user/valangar/fiddles/
+
