@@ -30,6 +30,7 @@ span {
     border: 1px solid silver;
     border-radius: 5px;
     text-align: center;
+	transition: all 0.07s ease;
 }
 .tutorial {
 	display: flex;
@@ -44,4 +45,9 @@ span {
 }
 .note {
 	
+}
+.playing {
+	transform: scale(1.1);
+	border-color: #99ccff;
+	box-shadow: 0 0 1rem #99ccff;
 }
