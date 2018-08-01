@@ -1,6 +1,6 @@
 //Author: Varsha Alangar
 //CREATED ON: 03/22/2018
-//LAST MODIFIED ON: 04/02/2018
+//LAST MODIFIED ON: 08/01/2018
 //DESCRIPTION: Creating a page using Vanilla JS that allows user to press keys to generate drum sounds. 
 var keys = Array.from(document.querySelectorAll(".key"));
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
