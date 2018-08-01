@@ -1,12 +1,13 @@
 body {
-	font-size: 12px;
-	display: flex;
-	flex-direction: column;
-	font-family: Calibri(bold);
-	background-color: #333;
-	background: url('bg_image.jpg');
-	background-size: cover;
-	color: #fff;
+	height: 90vh;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+    background: url(bg_image.jpg);
+    background-size: cover;
+    color: #fff;
 }
 kbd {
 	font-weight: bold;
@@ -18,12 +19,6 @@ span {
 .keys {
 	display: flex;
     justify-content: center;
-	position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%, 400%);
 }
 .key {
 	width: 100px;
@@ -45,12 +40,6 @@ span {
     text-align: center;
 	align-items: center;
     margin-top: 100px;
-	position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%, 1400%);
 }
 .my-logo {
 	width: 50px;
