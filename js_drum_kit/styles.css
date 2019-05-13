@@ -2,6 +2,8 @@ body {
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	height: 500px;
 	font-family: Calibri(bold);
 	background-color: #333;
 	background: url('bg_image.jpg');
@@ -18,12 +20,7 @@ span {
 .keys {
 	display: flex;
     justify-content: center;
-	position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%, 400%);
+	margin-bottom: 50px;
 }
 .key {
 	width: 100px;
@@ -44,18 +41,12 @@ span {
     justify-content: center;
     text-align: center;
 	align-items: center;
-    margin-top: 100px;
-	position: relative;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%, 1400%);
+    
 }
 .my-logo {
 	width: 50px;
 	height: 50px;
-	background: url(my-logo.jpg);
+	background: url(logo_rev.png);
     background-size: cover;
     border-radius: 50%;
 }

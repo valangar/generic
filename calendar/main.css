@@ -1,0 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.outer-wrapper {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* TITLE AREA STYLES */
+.title {
+    margin: auto;
+    font-size: 32px;
+    color: #1a3365b5;
+    font-weight: 600;
+}
+.content {
+    margin: 20px auto 0px auto;
+}
+.input-area {
+    display: flex;
+    justify-content: center;
+}
+.button {
+    cursor: pointer;
+}
+/* CONTENT AREA STYLES */
+.month-title {
+    margin: 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #5c6e92;
+    text-decoration: underline;
+}
+#calendar-area {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.month {
+    margin: 20px;
+}
+span {
+    margin: 5px;
+    width: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    display: inline-block;
+}
