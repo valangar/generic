@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
 	font-size: 12px;
 	display: flex;
 	flex-direction: column;
@@ -9,6 +10,17 @@ body {
 	background: url('bg_image.jpg');
 	background-size: cover;
 	color: #fff;
+=======
+	height: 90vh;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #333;
+    background: url(bg_image.jpg);
+    background-size: cover;
+    color: #fff;
+>>>>>>> 41753ac3cea8115c300ec318566818830355cb3b
 }
 kbd {
 	font-weight: bold;
@@ -20,7 +32,10 @@ span {
 .keys {
 	display: flex;
     justify-content: center;
+<<<<<<< HEAD
 	margin-bottom: 50px;
+=======
+>>>>>>> 41753ac3cea8115c300ec318566818830355cb3b
 }
 .key {
 	width: 100px;
@@ -41,12 +56,20 @@ span {
     justify-content: center;
     text-align: center;
 	align-items: center;
+<<<<<<< HEAD
     
+=======
+    margin-top: 100px;
+>>>>>>> 41753ac3cea8115c300ec318566818830355cb3b
 }
 .my-logo {
 	width: 50px;
 	height: 50px;
+<<<<<<< HEAD
 	background: url(logo_rev.png);
+=======
+	background: url(va_logo_rev.png);
+>>>>>>> 41753ac3cea8115c300ec318566818830355cb3b
     background-size: cover;
     border-radius: 50%;
 }
